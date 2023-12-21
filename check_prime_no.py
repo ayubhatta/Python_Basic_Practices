@@ -2,6 +2,8 @@
 
 number = int(input("Enter a number: "))
 count = 0
+
+# using for loop
 for i in range(1, number+1):
     if number % i == 0:
         count += 1
