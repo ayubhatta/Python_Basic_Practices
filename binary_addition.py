@@ -12,6 +12,7 @@ num2 = num2.zfill(max_len)
 result = ''
 carry = 0
 
+# using for loop
 for i in range(max_len - 1, -1, -1):
     r = int(num1[i]) + int(num2[i]) + carry
     result = str(r % 2) + result
