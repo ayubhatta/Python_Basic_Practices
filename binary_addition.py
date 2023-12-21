@@ -1,6 +1,7 @@
 # this code is to check addition of two binary numbers.
 
-num1 = input("Enter the first binary number: ")
+# asking user to input the binary numbers
+num1 = input("Enter the first binary number: ")  
 num2 = input("Enter the second binary number: ")
 
 max_len = max(len(num1), len(num2))
