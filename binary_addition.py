@@ -1,3 +1,5 @@
+# this code is to check addition of two binary numbers.
+
 num1 = input("Enter the first binary number: ")
 num2 = input("Enter the second binary number: ")
 
